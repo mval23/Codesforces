@@ -1,8 +1,6 @@
 N = int(input())
 p = tuple(map(int, input().split(","))) + tuple(map(int, input().split(","))) + tuple(map(int, input().split(",")))
-X = 0
-Y = 0
-Z = 0
+X, Y, Z = 0, 0, 0
 
 for i in range(N):
     s, l, i = p[i], p[i + N], p[i + 2 * N]
