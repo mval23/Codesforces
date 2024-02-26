@@ -15,8 +15,16 @@ def create_directory_and_files(directory_name, file_names):
             file.write("")
 
 
-directory_name = "module_2"
-file_names = ["juego_trisolariano", "criptografia_dummies", "arte_callejero", "serpientes_escaleras"]
+directory_name = "module_3"
+file_names = [
+    "suma_de_posiciones",
+    "conteo_de_menores",
+    "primi_conjunto",
+    "distancias_entre_postes",
+    "juegos_de_ordenamiento",
+    "mushing_inclusivo"
+]
+
 create_directory_and_files(directory_name, file_names)
 
 # if __name__ == "__main__":
