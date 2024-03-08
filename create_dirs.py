@@ -14,15 +14,18 @@ def create_directory_and_files(directory_name, file_names):
         with open(file_name + ".py", "w") as file:
             file.write("")
 
+    with open("jupyter.ipynb", "w") as file:
+        file.write("")
 
-directory_name = "module_3"
+
+directory_name = "module_4"
 file_names = [
-    "suma_de_posiciones",
-    "conteo_de_menores",
-    "primi_conjunto",
-    "distancias_entre_postes",
-    "juegos_de_ordenamiento",
-    "mushing_inclusivo"
+    "fila_de_revendedores",
+    "torre_de_saruman",
+    "uróboro",
+    "compilador",
+    "audiencias_con_la_reina_bean",
+    "torre_de_hanoi"
 ]
 
 create_directory_and_files(directory_name, file_names)
