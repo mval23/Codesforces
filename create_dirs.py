@@ -18,14 +18,14 @@ def create_directory_and_files(directory_name, file_names):
         file.write("")
 
 
-directory_name = "module_4"
+directory_name = "module_5"
 file_names = [
-    "fila_de_revendedores",
-    "torre_de_saruman",
-    "uróboro",
-    "compilador",
-    "audiencias_con_la_reina_bean",
-    "torre_de_hanoi"
+    "sumatoria_multiplos",
+    "de_tin_marin",
+    "teclado_numerico",
+    "encontrando_mediana",
+    "juego_eliminacion",
+    "autografo_serena"
 ]
 
 create_directory_and_files(directory_name, file_names)
